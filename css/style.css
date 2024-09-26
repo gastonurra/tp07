@@ -1,0 +1,159 @@
+/* general styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+}
+
+/* header */
+header {
+    background-color: #004080;
+    /* color de fondo del encabezado */
+    color: white;
+    /* color del texto en el encabezado */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #333;
+}
+
+header img {
+    width: 100px;
+    /* tamaño del logo */
+    height: auto;
+}
+
+header h1 {
+    margin: 10px 0;
+    /* espacio entre el titulo y los elementos */
+    font-size: 2.5rem;
+    /* tamaño del titulo */
+    text-transform: uppercase;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    /* tamaño del subtitulo */
+    margin-bottom: 20px;
+}
+
+/* navegacion */
+nav ul {
+    list-style-type: none;
+    /* elimina las viñetas de la lista */
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    /* centra los elementos de navegacion */
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+    /* efecto hover */
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* main section */
+main {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h1,
+main h2 {
+    color: #004080;
+    /* color de los titulos en main */
+    margin-bottom: 10px;
+}
+
+main p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+main img {
+    width: 200px;
+    /* tamaño fijo para hacerlas ma pequeñas */
+    height: 200px;
+    /* mantiene un tamaño cuadrado */
+    object-fit: cover;
+    /* ajusta la imagen dentro del cuadro sin distorsionarla */
+    margin-bottom: 10px;
+    border: 5px solid #333;
+    /* agrega un marco alrededor de la imagen */
+    border-radius: 10px;
+    /* bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* añade una ligera sombra */
+}
+
+
+/* footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #004080;
+    color: white;
+    margin-top: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+footer ul li a img {
+    width: 30px;
+    height: 30px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* mobile responsiveness */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        /* colapsa el menú en pantallas pequeñas */
+    }
+
+    header img {
+        width: 80px;
+    }
+
+    main img {
+        width: 100%;
+        /* asegura que las imágenes se ajusten al ancho del contenedor */
+    }
+}

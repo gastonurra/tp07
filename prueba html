@@ -1,0 +1,61 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura y CSS</title>
+    <style>
+        p {
+            color: peru;
+            /*Color de letra*/
+            background-color: cyan;
+            /*Color de fondo*/
+            font-size: 1em;
+            /*Tamaño de fuente*/
+            font-family: cursive;
+            /*Tipo de fuente*/
+            font-weight: 900;
+            /*Grosor de fuente*/
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Encabezado-->
+    <header>
+        <h1>Estructura y CSS</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="">INICIO</a></li>
+            <li><a href="">Estructura</a></li>
+            <li><a href="">CSS</a></li>
+        </ul>
+    </nav>
+    <!--Parte principal-->
+    <main>
+        <section>
+            <!-- Titulo -->
+            <!-- parrafos -->
+            <!-- lista/parrafo -->
+        </section>
+        <section>
+            <1--Estructura-->
+        </section>
+        <section>
+            <1--CSS-->
+        </section>
+    </main>
+    <footer>
+        <!-- Redes sociales: X, IG, wsp, YT. -->
+        <!-- Parrafo con el copyright-->
+        <!-- Autor de la página -->
+        <p>Footer de la página</p>
+    </footer>
+</body>
+
+</html>
+```
